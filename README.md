@@ -1,5 +1,5 @@
 # wiki-movie-db-scraper
-# A Scraper that uses the list created from the script that can be found in my [other github repo](https://github.com/ali2538/wiki-movie-list) to fetch the details from each of their Wikipedia pages
+#### A Scraper that uses the list created from the script that can be found in my [other github repo](https://github.com/ali2538/wiki-movie-list) to fetch the details from each of their Wikipedia pages
 
 This scraper uses scrapy framework to go through the list of movies
 
