@@ -165,7 +165,6 @@ class WikiMovieListSpider(scrapy.Spider):
         imdb_link = response.xpath(
             ".//a[contains(text(), 'IMDb')]/preceding-sibling::a/@href"
         ).extract()
-        time.sleep(10)
         yield {
             "movie_title": movie_title,
             "directors": directors,
